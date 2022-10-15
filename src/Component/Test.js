@@ -1,6 +1,6 @@
 import React from 'react'
 import './Test.css'
-
+import Timeline from '../timeline/Timeline';
 
 function Test() {
     return (
@@ -75,6 +75,8 @@ function Test() {
                     </li>
                 </ul>
             </div>
+            <div>Another 2</div>
+            <Timeline />
         </div>
 
     )
