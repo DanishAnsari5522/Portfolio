@@ -9,7 +9,7 @@ import Activity from './Component/Activity';
 import Contact from './Component/Contact';
 import DetailProjectpage from './Component/DetailProjectpage';
 import DetailProjectComp from './Component/DetailProjectComp';
-
+import Test from './Component/Test'
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Project" component={Project} />
+          <Route exact path="/Education" component={Test} />
           <Route exact path="/Activity" component={Activity} />
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/dan" component={DetailProjectpage} />

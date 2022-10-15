@@ -28,3 +28,12 @@
     border-radius: 5px;
 }
 
+
+@media screen and (max-height:500px) {
+    .contact-form{
+        width: 80%;
+        margin: auto;
+        padding: 50px;
+    }
+    
+}

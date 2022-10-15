@@ -5,7 +5,7 @@ import './Contact.css';
 
 function Contact() {
     return (
-        <div className="col-md-8 contact-form">
+        <div className="col-md-8 p-4 contact-form">
             <div className='drop-a-line'>Drop a Line</div>
             <Form>
                 <Form.Group className="mb-3" controlId="formGridAddress1">

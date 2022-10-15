@@ -10,6 +10,7 @@
 
 .detail{
     margin-bottom: 100px;
+    
 }
 
 #header{
@@ -40,4 +41,24 @@
     font-size: 14px;
     color:#d1d1d1;
     margin-top: 10px;
+}
+
+/* cards */
+
+.cardcomp{
+    padding: 10px;
+    border-radius: 5px;
+}
+.cardcomp:hover{
+    background-color: white;
+ 
+}
+.cardcomp:hover > .project-detail{
+    background-color: white;
+    color:black;
+}
+
+.cardcomp:hover > .name{
+    background-color: white;
+    color:black;
 }

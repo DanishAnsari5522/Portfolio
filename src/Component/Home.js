@@ -25,19 +25,16 @@ function Home() {
 
                                 </div>
                             </div>
-                            <div className="col-md-12">
+                            <div className="col-md-12 mt-4">
                                 <div className='technology mb-4'>Technology</div>
-                                <div className='d-flex justify-content-between mt-4'>
-                                    <div className='python'><IoLogoPython className='python-icon' /> Python</div>
-                                    <div><IoLogoPython className='python-icon' /> Python</div>
-                                    <div><IoLogoPython className='python-icon' /> Python</div>
-                                    <div><IoLogoPython className='python-icon' /> Python</div>
+                                <div className='d-flex justify-content-between mt-4 pythoncomp'>
+                                    <div className='python order-1 order-lg-1'><IoLogoPython className='python-icon' /> Python</div>
+                                    <div className='python order-2 order-lg-2'><IoLogoPython className='python-icon' /> Python</div>
+                                    <div className='python order-3 order-lg-3'><IoLogoPython className='python-icon' /> Python</div>
+                                    <div className='python order-4 order-lg-4'><IoLogoPython className='python-icon' /> Python</div>
                                 </div>
                             </div>
-                            <div>
-                                <div className="education">Education And Work Experiences</div>
-                                <Test />
-                            </div>
+                           
                         </div>
                         <div>
                             <Footer />

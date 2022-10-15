@@ -92,3 +92,11 @@ border:2px solid #054d7a;
 .footer{
     border-bottom:1px solid red ;
 }
+
+
+@media screen and (max-height:500px)
+{
+    .pythoncomp{
+        display:block;
+    }
+}
