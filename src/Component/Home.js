@@ -34,7 +34,7 @@ function Home() {
                                     <div className='python order-4 order-lg-4'><IoLogoPython className='python-icon' /> Python</div>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div>
                             <Footer />

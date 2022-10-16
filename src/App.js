@@ -10,7 +10,7 @@ import Contact from './Component/Contact';
 import DetailProjectpage from './Component/DetailProjectpage';
 import DetailProjectComp from './Component/DetailProjectComp';
 import Test from './Component/Test'
-import Timeline from './timeline/Timeline';
+// import Timeline from './timeline/Timeline';
 
 function App() {
   return (

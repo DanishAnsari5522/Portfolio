@@ -1,27 +1,27 @@
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.submit-btn
-{
-    background-color: #FF2400	;
-    padding:7px 25px;
+.submit-btn {
+    background-color: #FF2400;
+    padding: 7px 25px;
     border-radius: 5px;
     margin-top: 15px;
 }
 
-.contact-form{
-    margin-left: 5%;
-    margin-top: 20px;
+.contact-form {
+    margin: auto;
+    margin-top: 24px;
+    width: 70%;
 }
 
-.drop-a-line{
+.drop-a-line {
     font-size: 25px;
-    margin:10px 0 ;
+    margin: 10px 0;
 }
 
-.input-field{
+.input-field {
     background-color: inherit;
     color: white;
     border: 1px solid gray;
@@ -29,11 +29,11 @@
 }
 
 
-@media screen and (max-height:500px) {
-    .contact-form{
-        width: 80%;
+@media screen and (max-width:520px) {
+    .contact-form {
+        width: 100%;
         margin: auto;
         padding: 50px;
     }
-    
+
 }
