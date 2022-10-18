@@ -1,6 +1,6 @@
 .App {
   background-color: black;
-  color:white;
+  color: white;
 }
 
 .App-logo {
@@ -8,8 +8,8 @@
   pointer-events: none;
 }
 
-.nav_bar_wrapper a{
-  padding-left:30px;
+.nav_bar_wrapper a {
+  padding-left: 30px;
   text-decoration: none;
 }
 
@@ -38,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

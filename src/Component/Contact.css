@@ -14,6 +14,8 @@
     margin: auto;
     margin-top: 24px;
     width: 70%;
+    height: calc(100vh - 90px);
+    background-color: black;
 }
 
 .drop-a-line {
