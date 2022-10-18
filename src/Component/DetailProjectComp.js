@@ -1,46 +1,39 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import DetailProjectpage from './DetailProjectpage';
 import DetailProjectData from './DetailProjectData';
-// import { useParams  } from 'react-router';
-// import {getR} from 'react-router-dom'
 function DetailProjectComp() {
-//  const {id} =useParams();
-let id=window.location.href.split('/')[4];
- console.log(id);
-    return (
-        <>
+    const [data, setData] = useState({})
+    useEffect(() => {
+        let seg = window.location.href.split('/');
 
-            <div className="my-5">
+        const id = seg[seg.length - 1]
+        let index = Number(id) - 1
+        setData(DetailProjectData[index])
+    }, [])
+
+
+    if (!data) {
+        return null
+    }
+    return (
+        <div className='container'>
+            <div className="row">
+                <DetailProjectpage
+                    detailimagesrc={data.detailimagesrc}
+                    detailtitle={data.detailtitle}
+                    detaildevelopername={data.detaildevelopername}
+                    detaildeploymentdate={data.detaildeploymentdate}
+                    detailtext={data.detailtext}
+                    detailtextlisthead={data.detailtextlisthead}
+                    detailtextlist={data.detailtextlist}
+                    detailbelowtexthead={data.detailbelowtexthead}
+                    detailbelowtextsee={data.detailbelowtextsee}
+                    detailbelowtext={data.detailbelowtext}
+                    detailforroute={data.detailforroute}
+                />
+
             </div>
-            <div className="container-fluid mb-5">
-                <div className="row">
-                    <div className="col-12 mx-auto">
-                        <div className="row gy-5">
-                            {
-                                DetailProjectData.map((val, ind) => {
-                                    if(ind==(id-1))
-                                    {
-                                    return <DetailProjectpage
-                                    detailimagesrc={val.detailimagesrc}
-                                    detailtitle={val.detailtitle}
-                                    detaildevelopername={val.detaildevelopername}
-                                    detaildeploymentdate={val.detaildeploymentdate}
-                                    detailtext={val.detailtext}
-                                    detailtextlisthead={val.detailtextlisthead}
-                                    detailtextlist={val.detailtextlist}
-                                    detailbelowtexthead={val.detailbelowtexthead}
-                                    detailbelowtextsee={val.detailbelowtextsee}
-                                    detailbelowtext={val.detailbelowtext}
-                                    detailforroute={val.detailforroute}
-                                    />
-                                    }
-                                })
-                            }
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
+        </div>
     )
 }
 
