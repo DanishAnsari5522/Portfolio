@@ -18,14 +18,14 @@ function App() {
       <BrowserRouter basename='/Portfolio'>
         <Navigation />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/Portfolio" component={Home} />
           <Route exact path="/Project" component={Project} />
           <Route exact path="/Education" component={Test} />
           <Route exact path="/Activity" component={Activity} />
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/dan" component={DetailProjectpage} />
           <Route exact path="/DetailProjectComp/:id" component={DetailProjectComp} />
-          <Redirect to="/" />
+          <Redirect to="/Portfolio" />
         </Switch>
       </BrowserRouter>
     </div>
