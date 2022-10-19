@@ -10,7 +10,7 @@ function Project() {
         setItemno(1);
     }
 
-    const analitics = () => {
+    const research = () => {
         setItemno(2);
     }
 
@@ -22,7 +22,7 @@ function Project() {
                 <div className='row'>
                     <div className='navigationbtn'>
                         <button onClick={project} activeClassName="navbtn">Project</button>
-                        <button onClick={analitics} activeClassName="navbtn">Analisic</button>
+                        <button onClick={research} activeClassName="navbtn">Research</button>
                     </div>
                     {
                         ProjectData.map((val, ind) => {
@@ -49,7 +49,7 @@ function Project() {
                 <div className='row'>
                     <div className='navigationbtn'>
                         <button onClick={project}>Project</button>
-                        <button onClick={analitics}>Analisic</button>
+                        <button onClick={research}>Research</button>
                     </div>
                    <div>
                     Analisic
