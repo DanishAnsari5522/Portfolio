@@ -52,7 +52,7 @@ function Project() {
                         <button onClick={research}>Research</button>
                     </div>
                    <div>
-                    Analisic
+                   Research
                    </div>
 
                 </div>
