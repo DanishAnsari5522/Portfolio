@@ -16,8 +16,8 @@ function Home() {
                             <div className="row">
                                 <div className="col-md-5 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                                     <div className="p-absolute ml-0">
-                                        <div className="dev-info">Hi,i`m Debmalya Pramanik <strong className="dev-info-highlight">Creative Designer</strong> based in Hyderabad ,India</div>
-                                        <div className="my-10 dev-full-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+                                        <div className="dev-info">Hi,i`m <strong className="dev-info-highlight">Debmalya Pramanik</strong> <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png"  className='animated'/></div>
+                                        <div className="my-10 dev-full-info">6+ Years of Professional Experience in dealing with data, with expertise on data modeling, analytics, machine learning, deep learning.</div>
                                         <div className="mt-3">
                                             <NavLink exact to='/Contact' className="btn-contact-us">ContactUs</NavLink>
                                         </div>

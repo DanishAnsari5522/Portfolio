@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     /* background-color: black; */
-    color: white;
+    /* color: white; */
 }
 
 #headre {
@@ -102,5 +102,31 @@
 @media screen and (max-width:500px) {
     .pythoncomp {
         display: block;
+    }
+}
+
+/* animation */
+
+.animated{
+    width: 30px;
+    height: 30px;
+    animation:up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateY(-10px);
     }
 }

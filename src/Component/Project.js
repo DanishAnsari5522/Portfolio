@@ -51,9 +51,9 @@ function Project() {
                         <button onClick={project}>Project</button>
                         <button onClick={research}>Research</button>
                     </div>
-                   <div>
-                   Research
-                   </div>
+                    <div>
+                        Research
+                    </div>
 
                 </div>
 

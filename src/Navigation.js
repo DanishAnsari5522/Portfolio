@@ -23,7 +23,6 @@ function Navigation() {
               <a href="https://zenithclown.github.io/" target="_blank" className="dan">Home 1</a>
               <NavLink exact to="/Project" activeClassName="menu_active" className="dan">Project</NavLink>
               <NavLink exact to="/Education" activeClassName="menu_active" className="dan">Education  And Work Experiences</NavLink>
-              <NavLink exact to="/Activity" activeClassName="menu_active" className="dan">Activity</NavLink>
               <NavLink exact to="/Contact" activeClassName="menu_active" className="dan">Contact</NavLink>
             </Nav>
 

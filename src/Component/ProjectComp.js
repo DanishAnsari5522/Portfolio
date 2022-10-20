@@ -7,8 +7,9 @@ import { AiFillLike } from 'react-icons/ai'
 function ProjectComp(props) {
     const [likeCount, setLikeCount] = useState(0)
     return (
+        <>
+    
         <div className="col-md-4 p-3 col-11 mx-auto pb-0">
-
             <Card bsPrefix style={{ background: "black" }}>
 
                 <NavLink exact to={`/DetailProjectComp/${props.id}`} bsPrefix className="navlink">
@@ -44,6 +45,7 @@ function ProjectComp(props) {
                 </Card.Body>
             </Card>
         </div>
+        </>
     )
 }
 
