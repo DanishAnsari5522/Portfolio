@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.847441a5.css",
+    "main.css": "/Portfolio/static/css/main.1f9ecd9a.css",
     "main.js": "/Portfolio/static/js/main.e1895812.js",
     "static/media/stars.png": "/Portfolio/static/media/stars.90c266f7d69f1ffb6137.png",
     "static/media/slytherin_crest.png": "/Portfolio/static/media/slytherin_crest.7e9f95a2c79c53dbe3f2.png",
     "index.html": "/Portfolio/index.html",
-    "main.847441a5.css.map": "/Portfolio/static/css/main.847441a5.css.map",
+    "main.1f9ecd9a.css.map": "/Portfolio/static/css/main.1f9ecd9a.css.map",
     "main.e1895812.js.map": "/Portfolio/static/js/main.e1895812.js.map"
   },
   "entrypoints": [
-    "static/css/main.847441a5.css",
+    "static/css/main.1f9ecd9a.css",
     "static/js/main.e1895812.js"
   ]
 }
